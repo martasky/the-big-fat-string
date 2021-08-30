@@ -3,10 +3,11 @@ document.querySelector("#generate").addEventListener("click", generateOutput);
 
 function generateOutput() {
   const input = document.querySelector("#inputbox").value;
+  console.log(input);
 
   const dropdown = document.querySelector("#operator").value;
   const output = document.querySelector("#outputbox");
-  let newOutput = "";
+
   let indexfirst = input.indexOf(" ");
   let indexlast = input.lastIndexOf(" ");
 

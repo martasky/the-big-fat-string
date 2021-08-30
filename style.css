@@ -29,6 +29,7 @@ button,
 #operator {
   padding: 0.2rem;
   margin-bottom: 1rem;
+  height: 30px;
 }
 #operator {
   background-color: linen;

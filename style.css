@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2rem;
+}
+
+#interface {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  width: 40%;
+
+  /*  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 2rem; */
+}
+output {
+  border: gray 0.5px solid;
+  width: 100%;
+}
+input {
+  width: 100%;
+}
+input,
+#outputbox,
+button,
+#operator {
+  padding: 0.2rem;
+  margin-bottom: 1rem;
+}
+#operator {
+  background-color: linen;
+  width: 100%;
+  grid-column: 2 / -1;
+}
+
+button {
+  margin-top: 1rem;
+  width: 150px;
+  grid-column: 2 / -1;
+}
+label {
+  margin-right: 1rem;
+}
